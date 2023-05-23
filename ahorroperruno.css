@@ -1,0 +1,140 @@
+*{
+    margin: 0%;
+    padding: 0%;
+   }
+
+  .producto-categoria1 {
+   padding: 0 10vw;
+   font-size: 20px;
+   font-weight: 500;
+   margin-bottom: 20px;
+   color: #ae1a0a;
+   font-family: sans-serif;
+  }
+  
+  .contenedor-productos1{
+   padding: 0 10vw;
+   display: flex;
+   overflow-x: auto;
+  }
+  
+   
+  .productos.card1 {
+    flex: 0 0 auto;
+    width: 250px;
+    height: 450px;
+    margin-right: 40px;
+  }
+  
+  .imagen-producto1{
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+    margin: auto;
+  }
+  
+  .product-thumb1{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  .discount-tag1{
+    position: absolute;
+    background: rgb(122, 8, 150) ;
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+    right: 10px;
+    top: 10px;
+    text-transform: capitalize;
+    font-family: sans-serif;
+  }
+  
+  .ahorro-tag1{
+    position: absolute;
+    background: rgb(192, 158, 201);
+    padding: 5px;
+    border-radius: 25px;
+    color: white;
+    left: 10px;
+    top: 10px;
+    font-family: sans-serif;
+  }
+  
+  .card-btn1 {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    padding: 10px;
+    width: 90%;
+    text-transform: capitalize;
+    border: none;
+    outline: none;
+    background: white;
+    border-radius: 5px;
+    transition: 0.5s;
+    cursor: pointer;
+    opacity: 0;
+  }
+  
+  .productos-card1:hover .card-btn{
+    opacity: 1;
+  }
+  
+  .card-btn1:hover {
+    background: rgb(174, 26, 10);
+    color: whitesmoke;
+  }
+  
+  .info-producto1{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+  }
+  
+  .marca-producto1{
+    text-transform: uppercase;
+    font-family: sans-serif;
+    font-size: 15px;
+    text-align: center;
+    color: rgb(174, 26, 10);
+  }
+  
+  .descripcion-producto1{
+    width: 100%;
+    height: 20px;
+    line-height: 20px;
+    overflow: hidden;
+    opacity: 0.5;
+    text-transform: capitalize;
+    margin: 5px 0;
+    text-align: center;
+  }
+  
+  .precio1{
+    font-weight: 900;
+    font-size: 20px;
+    color: red;
+    text-align: center;
+    align-items: center;
+  
+  }
+  
+  .precio-actual1{
+    margin-left: 20px;
+    opacity: 0.5;
+    text-decoration: line-through;
+    text-align: center;
+  
+  }
+  
+  .imagen-producto1{
+    position: relative;
+    width: 100%;
+    height: 350px;
+    overflow: hidden;
+    margin: auto;
+  }
